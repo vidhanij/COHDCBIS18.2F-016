@@ -1,0 +1,37 @@
+print ".... ABCD Company User Login System ...."
+loop ='true'
+while (loop =='true'):
+    username = input("Enter the Username please : ")
+    userid = input("Enter the User Id please : ")
+    usercategory = input("Enter the User Category please : ")
+    userpassword = input("Enter the Password please : ")
+    if(UserName=='' UserId == '' UserCategory == '' UserPassword == ''):
+        print "Logged In Successfully "+ UserName
+        loop = 'false'
+        loop1 ='true'
+        while(loop1 =='true')
+        command =input(UserName + "{} > >")
+        if(command =="Exit" or command =="exit"):
+            break
+        else:
+            print "'" + command +" ' is not a valid command !!"
+    else:
+        print " Invalid Credentials !!"
+    
+
+
+
+print (".... User Login System .... ")
+print ("~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~")
+loop ='true'
+while (loop =='true'):
+    UserName = input("Enter the Username please : ")
+    UserId = input("Enter the User Id please : ")
+    UserCategory = input("Enter the User Category please : ")
+    UserPassword = input("Enter the Password please : ")
+    if(UserName=='abc' and UserId == '1' and UserCategory == 'admin' and UserPassword == '123'):
+        print ("Logged In Successfully !!")
+        break
+    else:
+        print (" Invalid Credentials !!")
+    
